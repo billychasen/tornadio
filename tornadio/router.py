@@ -34,7 +34,7 @@ DEFAULT_SETTINGS = {
     'heartbeat_interval': 12,
     # Enabled protocols
     'enabled_protocols': ['websocket', 'flashsocket', 'xhr-multipart',
-                          'xhr-polling', 'jsonp-polling', 'htmlfile'],
+                          'xhr-polling'], #, 'jsonp-polling', 'htmlfile'],
     # XHR-Polling request timeout, in seconds
     'xhr_polling_timeout': 20,
     }
